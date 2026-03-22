@@ -95,8 +95,7 @@ bool searchOptimal(vector<int> &arr, int target)
 {
     int low = 0, high = arr.size() - 1;
 
-    while (low <= high)
-    {
+    while (low <= high){
         int mid = low + (high - low) / 2;
 
         // Found target
